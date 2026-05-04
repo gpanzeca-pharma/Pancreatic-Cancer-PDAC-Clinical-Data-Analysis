@@ -9,9 +9,9 @@ The analysis demonstrates how Python can be applied to real-world clinical datas
 Data were obtained from The Cancer Genome Atlas (TCGA) pancreatic adenocarcinoma (PAAD) study via cBioPortal.
 
 The dataset includes:
-Patient demographics (age, sex),
-Tumor staging (Pathologic Stage),
-Overall survival data (status and time in months).
+-Patient demographics (age, sex),
+-Tumor staging (Pathologic Stage),
+-Overall survival data (status and time in months).
 
 # Objectives
 Perform data cleaning and preprocessing on clinical data,
