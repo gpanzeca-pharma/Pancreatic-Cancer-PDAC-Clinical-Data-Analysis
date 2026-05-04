@@ -9,41 +9,41 @@ The analysis demonstrates how Python can be applied to real-world clinical datas
 Data were obtained from The Cancer Genome Atlas (TCGA) pancreatic adenocarcinoma (PAAD) study via cBioPortal.
 
 The dataset includes:
-Patient demographics (age, sex)
-Tumor staging (Pathologic Stage)
-Overall survival data (status and time in months)
+Patient demographics (age, sex),
+Tumor staging (Pathologic Stage),
+Overall survival data (status and time in months).
 
 # Objectives
-Perform data cleaning and preprocessing on clinical data
-Analyze overall survival distribution
-Explore relationships between survival and clinical variables
-Evaluate survival differences across tumor stages
+Perform data cleaning and preprocessing on clinical data,
+Analyze overall survival distribution,
+Explore relationships between survival and clinical variables,
+Evaluate survival differences across tumor stages.
 
 # Data Cleaning
-Non-data metadata rows in the TCGA clinical file were excluded during data loading using the skiprows parameter
-Missing values were handled by removing entries with incomplete clinical information using dropna()
-Relevant clinical variables were selected for downstream analysis
+Non-data metadata rows in the TCGA clinical file were excluded during data loading using the skiprows parameter,
+Missing values were handled by removing entries with incomplete clinical information using dropna(),
+Relevant clinical variables were selected for downstream analysis.
 
 # Methods
-Data preprocessing with Pandas
-Exploratory Data Analysis (EDA)
-Data visualization using histograms, scatter plots, and boxplots
+Data preprocessing with Pandas,
+Exploratory Data Analysis (EDA),
+Data visualization using histograms, scatter plots, and boxplots.
 
 # Key Analyses
-Overall survival distribution
-Age vs overall survival relationship
-Survival stratified by tumor stage
-Multivariable visualization of survival patterns (age and stage)
+Overall survival distribution,
+Age vs overall survival relationship,
+Survival stratified by tumor stage,
+Multivariable visualization of survival patterns (age and stage).
 
 # Results
-Survival shows high variability across patients, reflecting disease heterogeneity
-No strong linear relationship was observed between age and overall survival
-A trend toward reduced survival in advanced tumor stages was observed, consistent with clinical expectations
+Survival shows high variability across patients, reflecting disease heterogeneity,
+No strong linear relationship was observed between age and overall survival,
+A trend toward reduced survival in advanced tumor stages was observed, consistent with clinical expectations.
 
 # Tools
-Python
-Pandas
-NumPy
+Python,
+Pandas,
+NumPy,
 Matplotlib
 
 # Project Structure
